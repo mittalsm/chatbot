@@ -4,9 +4,7 @@ boilerplate for facebook messenger bots on [sails js](http://sailsjs.com/)
 
 # What it offer
 
-Upon deploying you will have an empty website with a deactivated API and a ready to implement Messenger chat bot :rocket:
-
-The app is configured to be ready to deployed on [RedHat openShift](https://openshift.redhat.com/), but you can tweak it and deployed on the [hosting provider of your choice](http://sailsjs.com/documentation/concepts/deployment)
+boilerplate with database connection(Mongidb)
 
 # How to :
 
@@ -37,3 +35,4 @@ Alternatively, a better practice would be to add methods to the [api/utils/sendA
 First keep on mind that the API does not come with an authentication system so it is open to public (unsecure).
 
 To activate the API on the file [config/blueprints.js](config/blueprints.js) please change the values of actions, rest and shortcuts to true.# chatbot
+
